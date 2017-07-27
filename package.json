@@ -1,0 +1,28 @@
+{
+  "name": "phuzzy-language-filter",
+  "version": "0.0.1",
+  "description": "Filters languaged literals into a more convenient display",
+  "author": {
+    "name": "Blake Regalia",
+    "email": "blake.regalia@gmail.com"
+  },
+  "main": "lib/main/phuzzy-language-filter.js",
+  "assets": {
+    "css": "dist/styles/phuzzy-language-filter.css"
+  },
+  "files": [
+    "dist", "lib"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-debug": "^3.1.0",
+    "gulp-if": "^2.0.2",
+    "gulp-less": "^3.3.2",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-soda": "^0.5.2",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-util": "^3.0.8"
+  }
+}

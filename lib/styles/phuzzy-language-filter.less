@@ -1,0 +1,33 @@
+.phuzzy-language-filter {
+	&_filter {
+		&.override {
+			& .phuzzy-language-filter_foreign {
+				display: block !important;
+			}
+		}
+	}
+
+	&_foreign {
+		display: none !important;
+
+		& .content {
+			color: #92603f;
+		}
+		& .language {
+			color: #b3854d;
+		}
+	}
+}
+
+button.phuzzy-language-filter_toggle {
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	background-color: rgba(255, 255, 255, 0.6);
+
+	&.hide:before {
+		content: "↑ show ";
+	}
+
+	&.reveal:before {
+		content: "↓ hide ";
+	}
+}
